@@ -13,6 +13,6 @@ def pow(a, b):
     elif b == 0:
         return 1
     else:
-        for i in range(b):
+        for i in range(-b):
             c = c / a
         return c
