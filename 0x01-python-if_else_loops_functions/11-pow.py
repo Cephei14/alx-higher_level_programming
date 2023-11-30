@@ -15,4 +15,4 @@ def pow(a, b):
     else:
         for i in range(-b):
             c = c / a
-        return c
+        return round(c, 22)
