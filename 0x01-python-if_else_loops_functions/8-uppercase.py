@@ -7,4 +7,4 @@ def uppercase(str):
             Upstr += Nc
         else:
             Upstr += c
-    print(Upstr)
+    print("{}".format(Upstr))
