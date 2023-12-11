@@ -1,8 +1,7 @@
 #!/usr/bin/python3
 def print_reversed_list_integer(my_list=[]):
-    list_len = len(my_list)
     if my_list is None:
-        return
+        return None
     else:
-        for i in my_list:
-            print("{:d}".format(my_list[list_len - i]))
+        for item in reversed(my_list):
+            print("{:d}".format(item))
