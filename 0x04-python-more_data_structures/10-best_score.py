@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def best_score(a_dictionary):
-    if not a_dictionary:  # Check if dictionary is empty
+    if not a_dictionary:
         return None
     max_value = float('-inf')
     max_key = None
