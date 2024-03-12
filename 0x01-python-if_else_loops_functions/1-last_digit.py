@@ -7,6 +7,8 @@ if number > 0:
 elif number < 0:
     ld = number % -10
     print(f"Last digit of {number:d} is {ld:d}", end="")
+elif number == 0:
+    print("Last digit of 0 is 0")
 if ld > 5:
     print(" and is greater than 5")
 elif ld == 0:
